@@ -1,0 +1,46 @@
+#Container {
+  width: 100vw;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  /* Azul mais suave e moderno */
+  background-color: #0f172a; /* azul escuro elegante */
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.card {
+  background-color: #1e293b; /* mantém o padrão */
+  padding: 24px;
+  border-radius: 14px;
+  margin-bottom: 20px;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+
+  /* leve destaque */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+}
+
+#meu-titulo {
+  color: #38bdf8; /* azul claro principal */
+  font-family: sans-serif;
+  margin: 0;
+}
+
+section {
+  background-color: #334155; /* tom diferente do card */
+  width: 90%;
+  max-width: 500px;
+  margin: 10px 0;
+  padding: 16px;
+  border-radius: 10px;
+
+  color: #e2e8f0; /* branco azulado (menos agressivo) */
+  font-family: sans-serif;
+}
