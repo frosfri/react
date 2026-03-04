@@ -1,0 +1,128 @@
+/* styles.css (permanece igual) */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Georgia", serif;
+}
+
+body {
+  background: #f4f4f4;
+  color: #111;
+}
+
+.navbar {
+  height: 70px;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 60px;
+}
+
+.logo {
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+
+.navbar nav a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: #111;
+  font-size: 14px;
+}
+
+.contact {
+  font-style: italic;
+}
+
+.hero {
+  height: 80vh;
+  background-image: url("https://images.unsplash.com/photo-1508296695146-257a814070b4");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.45);
+  padding: 40px 60px;
+  text-align: center;
+  color: white;
+  max-width: 700px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.hero span {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.hero button {
+  margin-top: 25px;
+  padding: 12px 30px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hero button:hover {
+  background: white;
+  color: black;
+}
+
+.portfolio {
+  padding: 80px 60px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.card {
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: 340px;
+  object-fit: cover;
+}
+
+.category {
+  margin-top: 15px;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.card h3 {
+  font-size: 22px;
+  margin-top: 8px;
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .navbar {
+    padding: 0 20px;
+  }
+}
