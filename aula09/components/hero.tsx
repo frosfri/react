@@ -1,11 +1,8 @@
-// components/Hero.tsx
 
-
-
-function Hero() {
+function tela1() {
   return (
-    <section className="hero">
-      <div className="hero-overlay">
+    <section className="tela1">
+      <div className="tela01">
         <h1>meu Portfolio</h1>
 
         <p>
@@ -23,4 +20,5 @@ function Hero() {
   );
 };
 
-export default Hero;
+
+export default tela01;
