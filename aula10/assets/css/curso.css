@@ -1,0 +1,14 @@
+.curso{
+  padding:40px;
+}
+
+.curso h1{
+  text-align:center;
+  margin-bottom:30px;
+}
+
+.card{
+  border:1px solid #ccc;
+  padding:20px;
+  margin-bottom:20px;
+}
